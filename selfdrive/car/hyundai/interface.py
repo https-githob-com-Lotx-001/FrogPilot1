@@ -167,6 +167,11 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1337.
       ret.wheelbase = 2.63
       ret.steerRatio = 14.56
+    elif candidate == CAR.KIA_CADENZA:
+      ret.mass = 1640.
+      ret.wheelbase = 2.885
+      ret.steerRatio = 14.4
+      ret.tireStiffnessFactor = 0.5
     elif candidate == CAR.KIA_SPORTAGE_5TH_GEN:
       ret.mass = 1700.  # weight from SX and above trims, average of FWD and AWD versions
       ret.wheelbase = 2.756
